@@ -50,7 +50,7 @@ export default {
     nodeResolve({jsnext: true}),
     commonjs(),
     babel(),
-    // uglify(),
+    uglify(),
   ],
   dest: 'dist/app.min.js',
 };
