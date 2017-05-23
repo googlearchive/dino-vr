@@ -1,0 +1,13 @@
+{
+  "start_url": "/",
+  "icons": [{
+    "src": "resources/dino.png",
+    "sizes": "300x300",
+    "type": "image/png"
+  }],
+  "short_name": "Dino VR",
+  "name": "Offline Dino - VR",
+  "background_color": "#f7f7f7",
+  "theme_color": "#f7f7f7",
+  "display": "minimal-ui"
+}

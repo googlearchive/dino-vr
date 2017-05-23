@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,
+                                 maximum-scale=1.0, user-scalable=no">
+  <title>Dino Runner VR</title>
+  <style>
+    body, html {
+      margin: 0;
+      position: relative;
+      overflow: hidden;
+      width: 100%;
+      height: 100vh;
+    }
+
+    canvas {
+      margin: 0;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+    }
+  </style>
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#f7f7f7">
+</head>
+<body>
+  <div style="display: none;">
+    <img id="sprites" src="resources/sprite.png">
+    <audio id="offline-sound-press" src="resources/button-press.mp3"></audio>
+    <audio id="offline-sound-hit" src="resources/hit.mp3"></audio>
+    <audio id="offline-sound-reached" src="resources/score-reached.mp3"></audio>
+  </div>
+  <script src="dist/app.min.js"></script>
+</body>
+</html>

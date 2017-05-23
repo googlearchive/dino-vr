@@ -1,0 +1,20 @@
+{
+  "name": "dino-vr",
+  "version": "0.0.0",
+  "private": true,
+  "devDependencies": {
+    "@types/gl-matrix": "^2.2.34",
+    "@types/webvr-api": "0.0.31",
+    "@types/whatwg-fetch": "0.0.33",
+    "babel-preset-es2015-rollup": "^3.0.0",
+    "gl-matrix": "^2.3.2",
+    "rollup": "^0.41.1",
+    "rollup-plugin-babel": "^2.7.1",
+    "rollup-plugin-commonjs": "^7.0.0",
+    "rollup-plugin-node-resolve": "^2.0.0",
+    "rollup-plugin-typescript": "^0.8.1",
+    "rollup-plugin-uglify": "^1.0.1",
+    "rollup-watch": "^3.2.2",
+    "typescript": "^2.1.5"
+  }
+}
