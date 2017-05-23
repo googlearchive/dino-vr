@@ -409,10 +409,10 @@ class Runner {
 
     if (IS_MOBILE) {
       // Mobile only touch devices.
-      this.touchController.addEventListener(events.TOUCHSTART, this);
+      this.touchController.addEventListener(events.TOUCHSTART, this, {passive: true});
       this.touchController.addEventListener(events.TOUCHEND, this);
       // TODO: canvas may be the wrong target for this?
-      canvas.addEventListener(events.TOUCHSTART, this);
+      canvas.addEventListener(events.TOUCHSTART, this, {passive: true});
     } else {
       // Mouse.
       document.addEventListener(events.MOUSEDOWN, this);

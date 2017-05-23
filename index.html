@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0,
@@ -22,6 +22,12 @@
       right: 0;
       bottom: 0;
     }
+
+    .splash {
+      margin: 20px auto;
+      width: 300px;
+      display: block;
+    }
   </style>
   <link rel="manifest" href="manifest.json">
   <meta name="theme-color" content="#f7f7f7">
@@ -34,8 +40,6 @@
     <audio id="offline-sound-reached" src="resources/score-reached.mp3"></audio>
   </div>
   <script src="dist/app.min.js"></script>
-  <noscript>
-    <img src="resources/dino.png"/>
-  </noscript>
+  <img class="splash" src="resources/dino.png" alt="Offline Dino"/>
 </body>
 </html>
